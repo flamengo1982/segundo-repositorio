@@ -1,7 +1,9 @@
-@import url(/style/header.css);
-
-:root {
-    --cor-principal: @import url(/style/header.css);
+@import url(/styles/header.css);
+@import url(/styles/banner.css);
+@import url(/styles/carrossel.css);
+@import url(/styles/topicos.css);
+@import url(/styles/contato.css);
+@import url(/styles/rodape.css);
 
 :root {
     --cor-principal: @import url(/style/header.css);
@@ -13,15 +15,14 @@
         --cor-4: #FF0017;
         --cor-5: #1D1927;
         --cor-defundo: #FBF8FF;
+        --branco:#FFFFFF;
+        --preto: #000000;
+        --roxo: #9949B4;
+        --amarelo: #F1F10E;
+        --azul: #3d89ec;
+        --azul-degrade: linear-gradient(#262597,#16CFF8);;
         --fonte-principal: "roboto";
         --fonte-secundaria: "Afacad";
-    
-    }
-    
-    
-    * {
-        margin: 0;
-        padding: 0;
     }
     
     body {
@@ -29,6 +30,10 @@
         font-family: 'Prompt', sans-serif;
     }
     
+    h1 {
+        color: var(--branco);
+    }
+
     header {
         background-color: black;
         color: aqua;
@@ -83,123 +88,62 @@
 
 }
 
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    background-color: white;
-    font-family: 'Prompt', sans-serif;
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
 }
 
-header {
-    background-color: black;
-    color: aqua;
-}
-
-.cabecalho {
-    background-color: #262597;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    padding: 24px 0;
-}
-
-.cabecalho-imagem {
-    width: 20%;
-}
-
-.cabecalho-lista-item {
-    display: inline-block;
-    margin: 0 16;
-    font-size: 24px;
+h1 {
+    color: var(--branco);
 }
 
 .secao1 {
-background-image: linear-gradient(#424E61, #16CFF8);
-color: white;
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 24px 0;
+    background-image: linear-gradient(#424E61,#16CFF8);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
 }
-
 
 .secao1-titulo {
     padding: 24px 0;
 }
 
 .secao1-imagem {
-    width:40%;
+    width: 40%;
 }
 
-.secao-div-conteudo {
+.secao1-div-conteudo{
     width: 35%;
 }
-    --cor-secundaria: #E43AB3;
-    --cor-3: #FF5587;
-    --cor-4: #FF8C61;
-    --cor-5: #FFC553;
-    --cor-defundo: #e98bc5;
-    --fonte-principal: "roboto"
-    --fonte-secundaria: "Prompt"
 
+.nome-img {
+    width: 200px;
 }
 
-
-* {
-    margin: 0;
-    padding: 0;
+.div-apresentacao{
+    text-align: center;
+    padding: 16px 0;
 }
 
-body {
-    background-color: white;
-    font-family: 'Prompt', sans-serif;
-}
-
-header {
-    background-color: black;
-    color: aqua;
-}
-
-.cabecalho {
-    background-color: #262597;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    padding: 24px 0;
-}
-
-.cabecalho-imagem {
-    width: 20%;
-}
-
-.cabecalho-lista-item {
-    display: inline-block;
-    margin: 0 16;
+.apresentacao-titulo{
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
     font-size: 24px;
 }
 
-.secao1 {
-background-image: linear-gradient(#424E61, #16CFF8);
-color: white;
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 24px 0;
+.icones{
+    display: flex;
+    justify-content: center;
 }
 
-
-.secao1-titulo {
-    padding: 24px 0;
+.icon-redes{
+    width: 24px;
+    padding: 4px 20px;
 }
 
-.secao1-imagem {
-    width:40%;
-}
-
-.secao-div-conteudo {
-    width: 35%;
+.section3-img-1{
+    width: 40%;
 }
