@@ -8,16 +8,16 @@
 
 :root {
     --cor-principal: #F9F871;
-    --cor-secundaria: #FFBD3D;
-    --cor-3: #FF714B;
+    --cor-secundaria: #070500;
+    --cor-3: #000000;
     --cor-4: #FF0017;
     --cor-5: #1D1927;
     --cor-defundo: #FBF8FF;
     --branco: #FFFFFF;
     --preto: #000000;
-    --roxo: #9949B4;
+    --roxo: #1c1b1d;
     --amarelo: #F1F10E;
-    --azul: #3d89ec;
+    --azul: #ccac41;
     --azul-degrade: linear-gradient(#7e7e83, #d0d8da);
     ;
     --fonte-principal: "roboto";
